@@ -1,0 +1,100 @@
+
+.registration-form {
+    max-width: 500px;
+    margin: 100px auto 0;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .registration-form .form-row {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  .registration-form .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+  .registration-form .form-label {
+    font-weight: bold;
+    color: #343a40;
+    margin-right: 30px;
+    margin-bottom: 5px;
+
+  }
+  
+  .registration-form .form-control {
+    border-radius: 5px;
+    padding: 12px;
+    
+  }
+  
+  .registration-form .register-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .registration-form .register-btn:hover {
+    background-color: #389160;
+  }
+  
+  .registration-form .error-message {
+    font-size: 14px;
+    color: red;
+    margin-top: 5px;
+  }
+  
+  .registration-form .d-grid {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .form-details {
+    margin: 50px ;
+  }
+  
+  .form-details h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .form-details table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-details th,
+  .form-details td {
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .form-details th {
+    background-color: #f0f0f0;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .form-details tbody tr:nth-child(even) {
+    background-color: #f3c0c0;
+  }
+  
+  .form-details tbody tr:hover {
+    background-color: #e0f7fa;
+  }
+  
